@@ -140,9 +140,12 @@ export var defaultV2Css = {
   page: {
     root: "sd-page sd-body__page",
     emptyHeaderRoot: "sd-page__empty-header",
+    headerRoot: "sd-page__header",
     title: "sd-title sd-page__title",
-    description: "sd-description sd-page__description"
+    description: "sd-description sd-page__description",
+    bodyRoot: "sd-page__body",
   },
+  pageHeader: "sd-page__header",
   pageTitle: "sd-title sd-page__title",
   pageDescription: "sd-description sd-page__description",
   row: "sd-row sd-clearfix",

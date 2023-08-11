@@ -20,10 +20,12 @@ export class SurveyPage extends SurveyPanelBase {
     var rows = this.renderRows(this.panelBase.cssClasses);
     return (
       <div ref={this.rootRef} className={this.page.cssRoot}>
-        {title}
-        {description}
+        <div className={this.panelBase.cssClasses.page.headerRoot}>
+          {title}
+          {description}
+        </div>
         {rows}
-      </div >
+      </div>
     );
   }
   protected renderTitle(): JSX.Element {
